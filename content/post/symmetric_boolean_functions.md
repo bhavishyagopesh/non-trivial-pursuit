@@ -12,7 +12,7 @@ image = ""
 caption = ""
 +++
 
-Very rough [notes](https://drive.google.com/file/d/15jmFgu6MLJpTB7CTTuHUfo-rJr7EeFzz/view?usp=sharing) on the topic, mostly based on the following papers,
+Very rough [notes](/post/notes.pdf) on the topic, mostly based on the following papers,
 
      * [Gill Cohen's MS thesis](http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-get.cgi/2010/MSC/MSC-2010-13.pdf)
 
