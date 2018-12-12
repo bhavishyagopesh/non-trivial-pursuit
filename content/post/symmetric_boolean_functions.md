@@ -1,5 +1,5 @@
 +++
-title = "On minimal degree of Summetric Boolean Polynomials"
+title = "On minimal degree of Summetric Boolean Functions"
 date = 2018-12-12T00:00:00
 tags = ["Symmetric Boolean Functions", "TCS"]
 # List format.
