@@ -3,8 +3,9 @@
 set -ex
 rm -rf public
 hugo
-cp -r public ~/non-trivial-pursuit/ 
+cp -r public/* ~/non-trivial-pursuit/ 
 cd ~/non-trivial-pursuit/ 
+git add --all
 git commit -am "publish changes" 
 git push
 
