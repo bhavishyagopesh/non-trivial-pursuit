@@ -18,6 +18,7 @@ Note:
 
 1. *This post is based on our* ([Kuldeep](http://www.comp.nus.edu.sg/~meel/) and [yours truly](http://bhavishyagopesh.github.io) )  *paper submitted in* [TACAS2019](https://www.etaps.org/2019/tacas) *and is currently a work in progress.*
 
+2. Currently some of the repositories might not be publicly available.
 
 
 ## Prelude: What is (approximate) Model Counting?<sup>[1](#fn1)</sup>
