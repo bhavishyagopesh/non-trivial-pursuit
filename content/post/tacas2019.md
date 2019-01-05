@@ -101,7 +101,7 @@ Other popular belief in SAT community was that sparse constraints could be used 
   <br>
 
 
-  This was the idea that made [ApproxMC2 much faster than ApproxMC](https://www.comp.nus.edu.sg/~meel/Papers/ijcai16_counting.pdf). We applied to 
+  This was the idea that made [ApproxMC3 much faster than ApproxMC](https://www.comp.nus.edu.sg/~meel/Papers/ijcai16_counting.pdf). We applied to 
   SparseCount and obtained significant speedups(> 2.5x).
 
   Code:
@@ -114,7 +114,7 @@ Other popular belief in SAT community was that sparse constraints could be used 
 
 ### 2.)  Argument for why sparse XORs cannot be used with ApproxMC 
 It turns out the properties of sparse hash families proposed by Zhao et al are  not sufficient for 
-proofs of ApproxMC2 to go through. The proofs of ApproxMC2 depend on the relationship between variance($\sigma^{2}$)
+proofs of ApproxMC3 to go through. The proofs of ApproxMC3 depend on the relationship between variance($\sigma^{2}$)
  and mean($\mu$), specifically for proofs to work out $\sigma^{2} \leq \mu^{2}$. 
  But with proposed family  of hash functions
 it could be shown that $ \sigma^{2} \leq \eta $ where $\eta$ $\in$  $\Omega(\mu^{2})$.
@@ -137,12 +137,12 @@ implemented in C++ and use the same underlying SAT solver,
 <br>
 <br>
 
-- Also the usual ApproxMC2 (with p = 1/2) is 118x faster than
+- Also the usual ApproxMC3 (with p = 1/2) is 118x faster than
   SparseCount.
 
-| ![ApproxMC2 vis-a-vis SparseCount2](/post/triple_sparse_vs_scalmc.png) |
+| ![ApproxMC3 vis-a-vis SparseCount2](/post/triple_sparse_vs_scalmc.png) |
 |:--:|
-| ApproxMC2 vis-a-vis SparseCount2|
+| ApproxMC3 vis-a-vis SparseCount2|
 
 ### Effect of Randomness 
 
@@ -158,9 +158,9 @@ Toeplitz matrices bring down requirement of random bits from $O(mn)$ to $O(m+n)$
 -----------------------------------------------
 
 
-| ![ApproxMC2 vs Toeplitz-ApproxMC2 comparison](/post/teoplitz-scalmc.png) |
+| ![ApproxMC3 vs Toeplitz-ApproxMC3 comparison](/post/teoplitz-scalmc.png) |
 |:--:|
-| ApproxMC2 vs Toeplitz-ApproxMC2 comparison |
+| ApproxMC3 vs Toeplitz-ApproxMC3 comparison |
 <br>
 <br>
 <br>
@@ -185,9 +185,9 @@ sparse hash functions .
 believed beliefs that current construction of sparse XORs (by Zhao et
 al. and Ermon et al. ) lead to runtime improvement specifically we observe that 
 
-    1. Sparse constraints do not work with ApproxMC2.
+    1. Sparse constraints do not work with ApproxMC3.
     2. Sparsecount2 performs better than SparseCount
-    3. ApproxMC2 performs much better than both SparseCount and Spaesecount2
+    3. ApproxMC3 performs much better than both SparseCount and Spaesecount2
     4. Toeplitz matrices have no effect on run-time
 
 
