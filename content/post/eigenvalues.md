@@ -21,7 +21,7 @@ Intuition behind eigenvalues and eigenvectors.
 -------------------------------
 -------------------------------
 
-- **Eigenpairs are a lot like the roots of a polynomial**. While roots of a polynomial is that they ground the polynomial(fix its shape), eigenvalues limit the behavior of the linear transformation.
+- **Eigenpairs are a lot like the roots of a polynomial**. While roots of a polynomial ground the polynomial(fix its shape), eigenvalues limit the behavior of the linear transformation.
 
 - The eigenvalues of a linear mapping is a measure of the distortion induced by the transformation and the eigenvectors tell you about how the distortion is oriented.
 
